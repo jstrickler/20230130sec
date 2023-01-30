@@ -1,0 +1,7 @@
+requests
+ipython
+jupyter
+numpy
+scipy
+matplotlib
+seaborn

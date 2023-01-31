@@ -1,4 +1,4 @@
-max_value = 26
+max_value = 10000001
 min_value = 0
 tries = 1
 

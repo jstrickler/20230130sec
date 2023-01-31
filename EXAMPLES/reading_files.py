@@ -1,3 +1,4 @@
+from random import sample
 
 FILE_NAME = '../DATA/mary.txt'
 
@@ -21,10 +22,20 @@ with open(FILE_NAME) as mary_in:
 print('-' * 60)
 
 with open(FILE_NAME) as mary_in:
-    lines_with_nl = mary_in.readlines()  # readlines() reads all lines into an array
+    lines_with_nl = mary_in.readlines()  # readlines() reads all lines into a list
     print(lines_with_nl)
 print('-' * 60)
 
 with open(FILE_NAME) as mary_in:
     lines_without_nl = mary_in.read().splitlines()  # splitlines() splits string on ' ' into lines
     print(lines_without_nl)
+
+with open('../DATA/words.txt') as words_in:
+    all_words = words_in.read().splitlines()
+
+print(all_words[:50])
+
+
+words = sample(all_words, 10)
+print(words)
+

@@ -1,0 +1,29 @@
+1	John A.	Macdonald
+2	Alexander	Mackenzie
+3	John A.	Macdonald
+4	John	Albott
+5	Thompson	Sir John
+6	Mackenzie	Bowell
+7	Charles	Tupper
+8	Wilfred	Laurier
+9	Robert	Borden
+10	Robert	Borden
+11	Arthur	Meighen
+12	William Lyon Mackenzie	King
+13	Arthur	Meighen
+14	William Lyon Mackenzie	King
+15	Richard Bedford	Bennett
+16	William Lyon Mackenzie	King
+17	Louis	St. Laurent
+18	John	Diefenbaker
+19	Lester B.	Pearson
+20	Pierre	Trudeau
+21	Joe	Clark
+22	Pierre	Trudeau
+23	John	Turner
+24	Brian	Mulroney
+25	Kim	Campbell
+26	Jean	Chretien
+27	Paul	Martin
+28	Stephen	Harper
+29	Justin	Trudeau

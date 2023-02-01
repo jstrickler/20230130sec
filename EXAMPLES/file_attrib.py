@@ -24,4 +24,4 @@ for filename in filenames:
     atime_ts = os.path.getatime(filename)  # get file timestamp (last time file was read)
     atime = format_time(atime_ts)
 
-    print('{0:20s} {1:8d}  {2}  {3}'.format(filename, size, mtime, atime))
+    print('{0:20.20s} {1:8d}  {2}  {3}'.format(filename, size, mtime, atime))

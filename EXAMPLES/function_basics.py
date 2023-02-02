@@ -26,3 +26,10 @@ m = sqrt(1234)  # Call function with one argument
 n = sqrt(2)
 
 print("m is {:.3f} n is {:.3f}".format(m, n))
+
+def hello(whom="world"):
+    print("Hello,", whom)
+
+hello("Mom")
+hello("SEC")
+hello()

@@ -6,7 +6,7 @@ API_KEY = 'b87452b6'
 OMDB_URL = "http://www.omdbapi.com"
 
 def main():
-    requests_params = {'t': 'Black Panther', "apikey": API_KEY}
+    requests_params = {'t': 'Close Encounters', "apikey": API_KEY}
     response = requests.get(OMDB_URL, params=requests_params)
     if response.status_code == requests.codes.OK:
         raw_data = response.json()
@@ -18,6 +18,9 @@ def main():
         print()
 
         print('-' * 60)
+        print("CONTENT:")
+        print(response.content)
+        print('=' * 60)
 
         print("raw DATA:")
         pprint(response.json())

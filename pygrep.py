@@ -6,6 +6,9 @@ import os
 # python pygrep.py bird  DATA/*.txt
 # python pygrep.py PATTERN list-of-file-paths ...
 
+# read one or more files one line at a time, printing
+# out each line that matches the specified pattern
+
 pattern = sys.argv[1]
 
 rx = re.compile(pattern)

@@ -22,3 +22,12 @@ print()
 
 matches = re.findall(pattern, s)  # findall() returns list of tuples containing groups
 print("matches:", matches)
+print()
+
+amounts = ["$100USD", "Y2323JPY", "L2345GBP"]
+currency_regex = re.compile(r"(.)(\d+)([A-Z]{3})")
+for amount in amounts:
+    m = currency_regex.search(amount)
+    print("symbol:", m.group(1))
+    print("amount:", m.group(2))
+    print("currency:", m.group(3))

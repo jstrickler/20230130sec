@@ -38,4 +38,4 @@ def square_area(side):
     :param side: Length of one side
     :return: Area of square
     """
-    return side * 2
+    return side ** 2

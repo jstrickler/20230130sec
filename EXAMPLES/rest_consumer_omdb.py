@@ -26,6 +26,9 @@ def main():
         pprint(response.json())
     else:
         print(f"response.status_code: {response.status_code}")
-
+    print('-' * 60)
+    response = requests.options(OMDB_URL)
+    print(response)
+    print(response.content)
 if __name__ == '__main__':
     main()

@@ -10,6 +10,7 @@ endpoint = URL + ENDPOINT
 print("Endpoint:", endpoint)
 response = requests.get(
     endpoint,
+    verify=False,
 )
 
 if response.status_code == requests.codes.OK:

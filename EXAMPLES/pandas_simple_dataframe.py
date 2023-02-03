@@ -21,10 +21,12 @@ print(indices, '\n')
 
 print_header('values')
 print(values, '\n')
-
 df = pd.DataFrame(values, index=indices, columns=cols)  # create dataframe with row and column names
 print_header('DataFrame df')
 print(df, '\n')
 
 print_header("df['gamma']")
 print(df['gamma'])  # select column 'gamma'
+
+df2 = pd.DataFrame(values)
+print(df2)
